@@ -14,6 +14,8 @@
 		57D44EC42412E25800AF95F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D44EC32412E25800AF95F2 /* Assets.xcassets */; };
 		57D44EC72412E25800AF95F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D44EC52412E25800AF95F2 /* LaunchScreen.storyboard */; };
 		57D44ED22412E25800AF95F2 /* RSGTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D44ED12412E25800AF95F2 /* RSGTestTests.swift */; };
+		57D44EE024130B9600AF95F2 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D44EDF24130B9600AF95F2 /* Repository.swift */; };
+		57D44EE224130BC900AF95F2 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D44EE124130BC900AF95F2 /* REST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		57D44ECD2412E25800AF95F2 /* RSGTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSGTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D44ED12412E25800AF95F2 /* RSGTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSGTestTests.swift; sourceTree = "<group>"; };
 		57D44ED32412E25800AF95F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D44EDF24130B9600AF95F2 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		57D44EE124130BC900AF95F2 /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +83,11 @@
 		57D44EB92412E25500AF95F2 /* RSGTest */ = {
 			isa = PBXGroup;
 			children = (
-				57D44EBA2412E25500AF95F2 /* AppDelegate.swift */,
-				57D44EBC2412E25500AF95F2 /* SceneDelegate.swift */,
-				57D44EBE2412E25500AF95F2 /* ViewController.swift */,
-				57D44EC02412E25500AF95F2 /* Main.storyboard */,
-				57D44EC32412E25800AF95F2 /* Assets.xcassets */,
-				57D44EC52412E25800AF95F2 /* LaunchScreen.storyboard */,
+				57D44EDE24130AAF00AF95F2 /* Model */,
+				57D44EDD24130AAA00AF95F2 /* View */,
+				57D44EDC24130AA600AF95F2 /* Controller */,
 				57D44EC82412E25800AF95F2 /* Info.plist */,
+				57D44EE124130BC900AF95F2 /* REST.swift */,
 			);
 			path = RSGTest;
 			sourceTree = "<group>";
@@ -97,6 +99,34 @@
 				57D44ED32412E25800AF95F2 /* Info.plist */,
 			);
 			path = RSGTestTests;
+			sourceTree = "<group>";
+		};
+		57D44EDC24130AA600AF95F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57D44EBC2412E25500AF95F2 /* SceneDelegate.swift */,
+				57D44EBE2412E25500AF95F2 /* ViewController.swift */,
+				57D44EBA2412E25500AF95F2 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57D44EDD24130AAA00AF95F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57D44EC02412E25500AF95F2 /* Main.storyboard */,
+				57D44EC52412E25800AF95F2 /* LaunchScreen.storyboard */,
+				57D44EC32412E25800AF95F2 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57D44EDE24130AAF00AF95F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57D44EDF24130B9600AF95F2 /* Repository.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +233,8 @@
 				57D44EBF2412E25500AF95F2 /* ViewController.swift in Sources */,
 				57D44EBB2412E25500AF95F2 /* AppDelegate.swift in Sources */,
 				57D44EBD2412E25500AF95F2 /* SceneDelegate.swift in Sources */,
+				57D44EE224130BC900AF95F2 /* REST.swift in Sources */,
+				57D44EE024130B9600AF95F2 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
