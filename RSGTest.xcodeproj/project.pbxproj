@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573F3D8F2499979400795062 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F3D8E2499979400795062 /* Author.swift */; };
 		57D44EBB2412E25500AF95F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D44EBA2412E25500AF95F2 /* AppDelegate.swift */; };
 		57D44EBD2412E25500AF95F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D44EBC2412E25500AF95F2 /* SceneDelegate.swift */; };
 		57D44EBF2412E25500AF95F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D44EBE2412E25500AF95F2 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		573F3D8E2499979400795062 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		57D44EB72412E25500AF95F2 /* RSGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D44EBA2412E25500AF95F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D44EBC2412E25500AF95F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				57D44EDF24130B9600AF95F2 /* Repository.swift */,
+				573F3D8E2499979400795062 /* Author.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573F3D8F2499979400795062 /* Author.swift in Sources */,
 				57D44EBF2412E25500AF95F2 /* ViewController.swift in Sources */,
 				57D44EBB2412E25500AF95F2 /* AppDelegate.swift in Sources */,
 				57D44EBD2412E25500AF95F2 /* SceneDelegate.swift in Sources */,

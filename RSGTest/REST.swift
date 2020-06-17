@@ -33,10 +33,15 @@ class REST {
                 if response.statusCode == 200 {
                     
                     guard let data = data else {return}
+                    do {
+                        
                     let repositories = try JSONDecoder().decode([Repository].self, from: data)
                     for repository in repositories {
-                        print(repository.name)
+                        print(repository.name, repository.author)
                     }
+                } catch {
+                    print(error.localizedDescription)
+                }
                     
                 } else {
                     //TODO: alerta de erro do servidor
@@ -44,10 +49,9 @@ class REST {
                 
             } else {
                     //TODO: do error alert
-                
             }
         }
-        dataTask.resume()
         
+        dataTask.resume()
     }
 }
