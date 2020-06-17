@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 
-class Repository {
+class Repository : Codable {
     
-    
+    var nameRepo : String
+    var photoRepo : URL
+    var author : String
+    var stars : String
     
 }
